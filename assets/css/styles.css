@@ -1,0 +1,484 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 2;
+	letter-spacing: 1px;
+	background: #ececec;
+	font-size: 1em;
+}
+
+/*navigation menu*/
+.navbar {
+	height: 70px;
+	background: #1f1f1f !important;
+	border-bottom: 2px solid #e0006c;
+
+}
+
+.navbar-brand {
+	text-transform: uppercase;
+}
+
+.navbar-brand img {
+	width: 45px;
+	height: auto;
+	margin-right: 10px;
+}
+
+
+.nav-item {
+	padding: 12px;
+	font-size: 0.8em;
+}
+
+.nav-link {
+	color: #9b9b9b !important;
+}
+
+
+.nav-link:hover, .navbar-brand:hover {
+	color: #e0006c !important;
+}
+
+/*if decide to change unclicked color state
+.unclicked {
+	color: #fff !important;
+}*/
+
+.clicked {
+	color: #e0006c !important;
+}
+
+#navbarTogglerDemo02 {
+	background: rgba(31, 31, 31, 0.8) !important;
+
+}
+
+
+/*hero-section*/
+#hero-section {
+	background-image: url("../images/Zeeshaan-Maudarbocus-hero-laptop.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 140vh;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.hero-area {
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+ 	-webkit-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-shadow: 1px 1px #000;
+  	padding-top: 70px;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 700;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #Zeeshaan {
+        font-size: 2.5em;
+        padding-top: 70px;
+    }
+}
+
+.text-container {
+	text-shadow: 1px 3px #041023;
+	color: rgba(225, 225, 225, 0.1);
+	background-image: url("https://png.pngtree.com/element_origin_min_pic/16/11/01/195818810a6636b.jpg");
+	background-repeat: repeat-x;
+	background-position: right;
+	-webkit-background-clip: text;
+	animation: nameAnimation 15s linear infinite;
+}
+
+@keyframes nameAnimation {
+	0% {
+		background-position: left 0px top 10px;
+	}
+	100% {
+		background-position: left 600px top 10px;
+	}
+}
+
+.intro-hero {
+	display: block;
+	margin: 0 auto;
+	font-size: 1.5em;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+.customise-button, .second:hover,.customise-button:hover {
+	background: #e0006c;
+	border: 3px solid #e0006c;
+	width: 180px;
+	text-align: center;
+	margin: 10px 10px;
+	color: #fff;
+	font-size: 0.9em;
+	text-transform: none;
+
+}
+
+.second {
+	background: none;
+}
+
+/*about section*/
+ #about-section {
+	padding: 90px 0;
+	margin: 0 auto;
+	background: #fff;
+}
+
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 600;
+	color: #041023;
+	letter-spacing: 2px;
+}
+.aboutMe {
+	padding-top: 30px;
+}
+
+.img-thumbnail {
+	background-image: url("../images/Zeeshaan-Maudarbocus.jpg");
+	width: 250px;
+	height: 325px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.about-image {
+	display: block;
+	margin: auto;
+}
+
+.about-content {
+	text-align: justify;
+	font-size: 0.9em;
+	padding-top: 20px;
+	color: #333;
+}
+
+
+/*skill section*/
+#skills-section {
+	padding: 90px 0;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.intro-skill {
+	display: block;
+	margin: auto;
+	font-size: 1.3em;
+	color: #333;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.cool {
+	font-weight: 700;
+	color: #e0006c;
+}
+
+.logo {
+	width: 100%;
+	max-width: 100px;
+	height: 100px;
+	display: block;
+	margin:auto;
+}
+
+.container {
+	text-align: center;
+}
+
+.skill {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.logo-title {
+	padding-top: 30px;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: #333;
+}
+
+.logo-container {
+	padding: 30px 0 0 0;
+	margin: auto;
+	cursor: pointer;
+}
+
+/*portfolio section*/
+#portfolio-section{
+	padding: 90px 0;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.intro-portfolio {
+	padding-top: 10px;
+	display:block;
+	margin: auto;
+	color: #333;
+}
+
+.intro-portfolio p {
+	font-size: 1.1em;
+	color: #333;
+}
+
+/*start of animation portfolio*/
+
+.img-block, .img-holder{
+	display: block;
+	margin: auto;
+	float: left;
+	margin-top: 10px;
+	padding: 0;
+	-webkit-box-shadow: 1px 1px #dcdcdc;
+	-moz-box-shadow:    1px 1px #dcdcdc; 
+	box-shadow:         1px 1px #dcdcdc;
+}
+
+.img-con{
+	cursor: pointer;
+	float: left;
+	transition-duration: 0.8s;
+}
+
+.an-img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.text-con{
+	display: block;
+	margin: auto;
+}
+
+.inner-p{
+	margin-top: 30px;
+	text-align: justify;
+	float: left;
+	font-size: 0.8em;
+	margin-left: 0 auto;
+	color: #333;
+	height: 70px;
+}
+
+
+
+.img-con .img-block {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.background-strip1, .background-strip2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	transition-duration: 0.8s;
+	z-index: 2;
+}
+
+.background-strip1{
+	height: 25%;
+	background: rgba(224, 0, 108, 0.8);
+}
+
+.background-strip2 {
+	height: 75%;
+	top: 25%;
+	left: 100%;
+	width: 100%;
+	background: rgba(255, 71, 159, 0.8);
+}
+
+.img-con:hover .background-strip1 {
+	width: 100%;
+}
+
+.img-con:hover .background-strip2 {
+	left: 0;
+}
+
+.img-con .img-block h2 {
+	position: absolute;
+	top: 6.25%;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: 700;
+	z-index: 4;
+	right: -100%;
+	transform: translate(50%);
+	width: 300px;
+	letter-spacing: 1px;
+	transition-duration: 1.5s;
+	text-align: center;
+}
+
+.img-con:hover h2 {
+	right: 50%;
+}
+
+.img-con .img-block p {
+	position: absolute;
+	top: 50%;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 0.9em;
+	z-index: 4;
+	left: -100%;
+	transform: translate(-50%);
+	width: 300px;
+	letter-spacing: 1px;
+	transition-duration: 1.5s;
+	text-align: center;
+}
+
+.img-con:hover p {
+	left: 50%;
+}
+
+/*end of animation portfolio*/
+
+/*Web design portfolio*/
+
+#web-design {
+	float: left;
+	text-align: center;
+	padding-top: 35px;
+}
+
+#design-img-holder .img-con {
+	padding-bottom: 40px;
+}
+
+
+
+/*contact section*/
+#contact-section {
+	background: #041023;
+	color: #fff;
+	padding: 0;
+	padding-top: 90px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+#contact-title {
+	color: #fff;
+}
+
+.intro-contact {
+	padding-top: 10px;
+	display: block;
+	margin: auto
+}
+
+.intro-contact p {
+	font-size: 1em;
+	color: #fff;
+}
+
+
+.icon {
+	margin-right: 5px;
+}
+
+.contact-me {
+	padding-top: 30px;
+}
+
+.contact-details {
+	text-align: left;
+	padding-bottom: 30px;
+	font-size: 0.8em;
+	font-weight: 300;
+	color: #fff;
+}
+
+.space {
+	margin-left: 25px;
+}
+
+input[type="text"] {
+
+    font-size: 1em;
+    margin-bottom: 22px;
+}
+
+input[type="email"] {
+
+    font-size: 1em;
+    margin-bottom: 22px;
+}
+
+.form-group {
+	padding-top: 10px;
+	margin: 0;
+}
+
+.text-content {
+	float: left;
+}
+
+.form-control {
+	font-size: 1em;
+}
+
+.submit-form {
+	margin-top: 20px;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+	background: #e0006c;
+	border: 3px solid #e0006c;
+	color: #fff;
+	font-size: 0.9em;
+}
+
+.footer {
+	display: block;
+	margin: auto;
+	font-size: 0.7em;
+	text-align: center;
+	margin-top: 20px;
+	color: #7d7d7d;
+}
+
